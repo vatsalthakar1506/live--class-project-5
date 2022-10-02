@@ -1,0 +1,144 @@
+@import url("href='https://fonts.googleapis.com/css?family=Varela Round");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;1,100&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(20, 19, 19);
+}
+.container {
+  position: relative;
+}
+
+.navbar {
+  position: relative;
+  background-color: rgb(6, 6, 6);
+  top: 0px;
+  height: 65px;
+  width: 1068px;
+  left: 200px;
+  color: white;
+}
+.line {
+  border-left: 1px solid rgb(196, 202, 196);
+  top: 9px;
+  height: 42px;
+  color: rgb(245, 245, 245);
+  position: absolute;
+  left: 200px;
+}
+.grow-list {
+  position: relative;
+}
+.white-logo {
+  height: 25px;
+  width: 75px;
+  position: absolute;
+  left: 80px;
+  top: 20px;
+}
+
+.list {
+  position: relative;
+  top: 25px;
+  left: 160px;
+  list-style: none;
+  color: rgb(216, 221, 223);
+  font-family: "Varela Round", sans-serif;
+  font-weight: 550;
+}
+.list-item1 {
+  position: absolute;
+  left: 80px;
+  font-size: 13px;
+}
+
+.list-item2 {
+  position: absolute;
+  left: 180px;
+  font-size: 13px;
+}
+.list-item3 {
+  position: absolute;
+  left: 260px;
+  font-size: 13px;
+}
+.list-item4 {
+  position: absolute;
+  left: 380px;
+  font-size: 13px;
+}
+.list-item5 {
+  position: absolute;
+  left: 480px;
+  font-size: 13px;
+}
+.arrow {
+  border: solid rgb(244, 244, 244);
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 2px;
+  left: 50px;
+  top: 3px;
+}
+.down {
+  position: absolute;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  left: 120px;
+}
+
+.button-small {
+  position: absolute;
+  right: 60px;
+  font-size: 12px;
+  border-radius: 0.6em;
+  top: 13px;
+  padding: 8px 28px 8px 28px;
+  background-color: rgb(148, 14, 148);
+  color: rgb(245, 248, 251);
+  font-weight: 200;
+}
+
+.image {
+  position: absolute;
+  height: 690px;
+  width: auto;
+  left: 200px;
+  top: 60px;
+}
+
+.hero {
+  position: relative;
+}
+.hero-heading {
+  position: absolute;
+  top: 120px;
+  font-size: 65px;
+  width: 675px;
+  left: 460px;
+  color: rgb(255, 255, 255);
+  font-family: "Varela Round", sans-serif;
+}
+.hero-description {
+  position: absolute;
+  top: 280px;
+  font-size: 23px;
+  left: 520px;
+  color: rgb(255, 255, 255);
+  font-family: "Varela Round", sans-serif;
+}
+.button-large {
+  position: absolute;
+  top: 340px;
+  left: 600px;
+  border-radius: 0.6em;
+  font-size: 22px;
+  padding: 13px 20px 10px 20px;
+  background-color: rgb(148, 14, 148);
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  border-color: rgb(148, 14, 148);
+}
